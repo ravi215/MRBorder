@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MRBorder_Example' do
+  pod 'MRBorder', :path => '../'
+
+  target 'MRBorder_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
