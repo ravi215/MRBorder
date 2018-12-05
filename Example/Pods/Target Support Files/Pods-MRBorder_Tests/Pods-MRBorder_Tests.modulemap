@@ -1,0 +1,6 @@
+framework module Pods_MRBorder_Tests {
+  umbrella header "Pods-MRBorder_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

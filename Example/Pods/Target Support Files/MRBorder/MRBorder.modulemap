@@ -1,0 +1,6 @@
+framework module MRBorder {
+  umbrella header "MRBorder-umbrella.h"
+
+  export *
+  module * { export * }
+}

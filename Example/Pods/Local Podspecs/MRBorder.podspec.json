@@ -1,0 +1,22 @@
+{
+  "name": "MRBorder",
+  "version": "0.1.0",
+  "summary": "A short description of MRBorder.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ravi215/MRBorder",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ravi215": "ravibhushan2110@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/ravi215/MRBorder.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MRBorder/Classes/**/*"
+}

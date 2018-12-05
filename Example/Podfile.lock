@@ -1,0 +1,16 @@
+PODS:
+  - MRBorder (0.1.0)
+
+DEPENDENCIES:
+  - MRBorder (from `../`)
+
+EXTERNAL SOURCES:
+  MRBorder:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MRBorder: e7b1f04973dd255b2c5276e37c2380aac02c1ca7
+
+PODFILE CHECKSUM: d1cb37ec283532b2f1388a80195d57a4ee97ef3a
+
+COCOAPODS: 1.5.3
