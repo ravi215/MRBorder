@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		14C86A61F63ADD6EC18A3DD1583E60C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		282E7CE8BD53ECA2748515B901932636 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B44EA49118D9DFF28276B51D1A59625 /* ReplaceMe.swift */; };
 		2B6651B7F19A6A8AF4258A09C3052905 /* MRBorder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 658DBBFA726972811C64DBB698246154 /* MRBorder-dummy.m */; };
 		3247E0CB338508EAA04B9CA8D4AFF842 /* MRBorder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5121BF95467C576A9C508C9462C99482 /* MRBorder-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		351B0CB10DD1727F10188951A8031A36 /* Pods-MRBorder_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A60DA332F7145AE8FE1D7CB32586CEC1 /* Pods-MRBorder_Tests-dummy.m */; };
 		A074E861BEADB348602297AE7B3E5477 /* Pods-MRBorder_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 75DA2E92A3EB42D1A21C8EE4E5CACED4 /* Pods-MRBorder_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A35E9C2DD346B22EE63E643E7B2DDC01 /* Pods-MRBorder_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E273D44780EDA592DA34BFDE7E72855 /* Pods-MRBorder_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D86FBB4321B7F22A00FACABC /* MRBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86FBB4221B7F22A00FACABC /* MRBorder.swift */; };
 		EC886AED3975DCF8BA72E75B895079B3 /* Pods-MRBorder_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A0B88D294050F3DF5A4492D8DEC79BC /* Pods-MRBorder_Example-dummy.m */; };
 		F771ADB0CD60E16A7CCEFD872D61C0FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		FD206053A6F8240E090D8DCBCBD7123E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
@@ -45,7 +45,6 @@
 		2A94D498C149310D22028CDC3E9F52E1 /* Pods-MRBorder_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MRBorder_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		311717C73F788E92A835ABF5EE502C11 /* Pods-MRBorder_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MRBorder_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		375F583DF5C28CE0A6D51CC103D2DB20 /* Pods-MRBorder_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MRBorder_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		3B44EA49118D9DFF28276B51D1A59625 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = MRBorder/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		4E273D44780EDA592DA34BFDE7E72855 /* Pods-MRBorder_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MRBorder_Tests-umbrella.h"; sourceTree = "<group>"; };
 		5121BF95467C576A9C508C9462C99482 /* MRBorder-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MRBorder-umbrella.h"; sourceTree = "<group>"; };
 		59D8B5CF032926E1D0FF56C5323FD7C1 /* MRBorder.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = MRBorder.podspec; sourceTree = "<group>"; usesTabs = 0; wrapsLines = 0; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -71,6 +70,7 @@
 		C0373E1F6E228CB0DE69985EEC5C83A1 /* MRBorder-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MRBorder-prefix.pch"; sourceTree = "<group>"; };
 		CE1C21416201D7628A176EDB134428F8 /* MRBorder.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MRBorder.xcconfig; sourceTree = "<group>"; };
 		D0ABA42FBC848F931601C9E39E0C57A8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		D86FBB4221B7F22A00FACABC /* MRBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MRBorder.swift; path = MRBorder/Classes/MRBorder.swift; sourceTree = "<group>"; };
 		DF75E99DC9668EB51139767AA96CF6EE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -209,9 +209,9 @@
 		D8416DA07C3E879294ABDFE736121B17 /* MRBorder */ = {
 			isa = PBXGroup;
 			children = (
-				3B44EA49118D9DFF28276B51D1A59625 /* ReplaceMe.swift */,
 				F91A17466F238C2A6E05F2F32320B480 /* Pod */,
 				8A511B5A760692B5AF43BD238BB192AC /* Support Files */,
+				D86FBB4221B7F22A00FACABC /* MRBorder.swift */,
 			);
 			name = MRBorder;
 			path = ../..;
@@ -321,6 +321,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 1010;
+				TargetAttributes = {
+					AD471F00DC0E81E01FE81449D266B7EB = {
+						LastSwiftMigration = 1010;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -378,8 +383,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D86FBB4321B7F22A00FACABC /* MRBorder.swift in Sources */,
 				2B6651B7F19A6A8AF4258A09C3052905 /* MRBorder-dummy.m in Sources */,
-				282E7CE8BD53ECA2748515B901932636 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,6 +452,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CE1C21416201D7628A176EDB134428F8 /* MRBorder.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -609,6 +615,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CE1C21416201D7628A176EDB134428F8 /* MRBorder.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
